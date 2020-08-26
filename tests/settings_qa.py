@@ -1,6 +1,6 @@
-import os
+from api_yamdb.settings import os, BASE_DIR, SECRET_KEY
 
-from api_yamdb.settings import BASE_DIR
+SECRET_KEY
 
 DATABASES = {
     'default': {
