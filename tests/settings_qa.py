@@ -1,4 +1,6 @@
-from api_yamdb.settings import *
+import os
+
+from api_yamdb.settings import BASE_DIR
 
 DATABASES = {
     'default': {
